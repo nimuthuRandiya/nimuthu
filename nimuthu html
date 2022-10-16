@@ -1,7 +1,7 @@
 import os
 impor telebot
 
-bot = telebot.TeleBot('ApI key Here')
+bot =.telebot.TeleBot('ApI key Here')
 
 bot.messege_handler(comand=["star"])
 def send_welcom(message):
