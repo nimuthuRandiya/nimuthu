@@ -1,0 +1,1 @@
+worker: pythom3 main.py

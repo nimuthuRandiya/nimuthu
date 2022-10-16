@@ -1,0 +1,14 @@
+import os
+impor telebot
+
+bot = telebot.TeleBot('ApI key Here')
+
+bot.messege_handler(comand=["star"])
+def send_welcom(message):
+  bot.reply_to(message,"Hello!")
+
+bot.message_handler(comands=["how"])
+def send_message(message):
+  bot.send_message(message), "https://youtube.com/channel/UC-CtZoY4h7zpr9-bqcj0CLA"
+
+bot.polling()
